@@ -77,5 +77,14 @@ ul li {
 }
 
 footer {
-    height: 40px;
+    height: 80px;
+}
+
+footer .fa-brands {
+    font-size: 30px;
+}
+
+ .fa-brands:hover,
+ .fa-brands:active {
+    color:#7D160F !important;
 }
