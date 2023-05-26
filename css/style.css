@@ -36,7 +36,6 @@
 }
 #app {
     max-height: 100vh;
-    height: 100vh;
 }
 
 /* color */
@@ -78,6 +77,8 @@ ul li {
 
 footer {
     height: 80px;
+    position: absolute;
+    bottom: 0;
 }
 
 footer .fa-brands {
