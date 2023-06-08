@@ -41,6 +41,8 @@
     display: flex;
     flex-direction: column;
     font-size: 16px;
+    font-family: 'gothambold';
+    text-transform: uppercase;
 }
 
 /* color */
@@ -101,10 +103,17 @@ header h1 {
 
 .sezione1 a {
     text-decoration: none;
+    overflow-y: scroll;
+}
+
+.sezione1 {
+    overflow-y: auto;
+    text-align: center;
 }
 
 ul {
     margin: 10px;
+    padding: 0 !important;
 
 }
 
@@ -112,6 +121,24 @@ ul li {
     list-style: none;
     margin-top: 8px;
     margin: 15px 0;
+    
+}
+
+.copy {
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #7D160F;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.password {
+    background-color: #7D160F;
+    color: white;
+    text-transform: lowercase;
+
 }
 
 strong {
