@@ -35,7 +35,7 @@
     box-sizing: border-box;
 }
 #app {
-    max-height: 100vh;
+    min-height: 100vh;
 }
 
 /* color */
@@ -46,7 +46,7 @@
 
 header {
     background: url("https://www.keysofsicily.it/wp-content/uploads/2023/05/wallpaperflare.com_wallpaper-1-scaled.jpg");
-    height: 250px;
+    height: 150px;
     background-position: center;
     background-size: cover;
 }
@@ -64,10 +64,43 @@ header h1 {
     font-family: 'gothamblack';
     color: white !important;
     font-size: 30px;
+
+    -webkit-animation: color_change 1s infinite alternate;
+	-moz-animation: color_change 1s infinite alternate;
+	-ms-animation: color_change 1s infinite alternate;
+	-o-animation: color_change 1s infinite alternate;
+	animation: color_change 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+	from { color: white !important; }
+	to { color: #7D160F !important }
+}
+
+@-moz-keyframes color_change {
+	from { color: white !important; }
+	to { color: #7D160F !important }
+}
+@-ms-keyframes color_change {
+	from { color: white !important; }
+	to { color: #7D160F !important }
+}
+@-o-keyframes color_change {
+	from { color: white !important; }
+	to { color: #7D160F !important }
+}
+@keyframes color_change {
+	from { color: white !important; }
+	to { color: #7D160F !important }
 }
 
 .sezione1 a {
     text-decoration: none;
+}
+
+ul {
+    margin: 10px;
+
 }
 
 ul li {
