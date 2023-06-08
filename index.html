@@ -39,8 +39,8 @@
                         <strong>Itinerari: </strong> <a href="https://www.keysofsicily.it/territorio/">Vedi qui</a>
                     </li>
                     <li>
-                        <strong>Contatti:</strong>
-                        <ul>
+                        <strong @click="showContact()">Contatti <i v-if="contact === false" class="fa-solid fa-caret-down"></i> <i v-if="contact === true" class="fa-solid fa-caret-up"></i></strong>
+                        <ul v-show="contact" class="contact-list">
                             <li>
                                 <strong>Emergenza</strong> <br>
                                 112
