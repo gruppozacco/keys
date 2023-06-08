@@ -35,7 +35,9 @@
     box-sizing: border-box;
 }
 #app {
-    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* color */
@@ -110,8 +112,9 @@ ul li {
 
 footer {
     height: 80px;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
+    align-self: self-end;
 }
 
 footer .fa-brands {
