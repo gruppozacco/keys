@@ -29,24 +29,24 @@
             <section class="sezione1">
                 <ul>
                     <li>
-                        <strong>Wifi Password: </strong><br>
+                        <strong>Wifi Password <i class="fa-solid fa-wifi"></i> </strong><br>
                         <div class="password">
                             "{{password}}"
                         </div>
                         <button class="copy" @click="copy()">Clicca per Copiare</button>
                     </li>
                     <li>
-                        <strong>Coffee menu: </strong>
+                        <strong>Coffee menu <i class="fa-solid fa-mug-saucer"></i> </strong>
                         <div>
                             <a href="./file/coffee menu (1).pdf" download="coffee">Download</a>
                         </div>
                     </li>
                     <li>
-                        <strong>Itinerari: </strong> <br>
+                        <strong>Itinerari <i class="fa-solid fa-map"></i> </strong> <br>
                          <a href="https://www.keysofsicily.it/territorio/">Vedi qui</a>
                     </li>
                     <li @click="showContact()">
-                        <strong>Contatti <i v-if="contact === false" class="fa-solid fa-caret-down"></i> <i v-if="contact === true" class="fa-solid fa-caret-up"></i></strong>
+                        <strong>Contatti <i class="fa-solid fa-phone fa-flip-horizontal"></i> <i v-if="contact === false" class="fa-solid fa-caret-down"></i> <i v-if="contact === true" class="fa-solid fa-caret-up"></i></strong>
                         <ul v-show="contact" class="contact-list">
                             <li>
                                 <strong>Emergenza</strong> <br>
@@ -63,7 +63,7 @@
                         </ul>
                     </li>
                     <li>
-                        <strong>Green House:</strong>
+                        <strong>Green House <i class="fa-solid fa-house"></i></strong>
                         <div>
                             <a href="./file/keys ECO.pdf" download="keyseco">Download</a>
                         </div>
@@ -82,7 +82,7 @@
 
                     <div class="social d-flex justify-content-center flex-column align-items-center mx-3" >
                         <a href="https://www.keysofsicily.it/">
-                            <i class="icon fa-solid fa-house"></i>
+                            <i class="icon fa-solid fa-globe"></i>
                         </a>
                         <p>sito</p>
                     </div>
