@@ -114,6 +114,10 @@ ul li {
     margin: 15px 0;
 }
 
+strong {
+    margin-bottom: 5px;
+}
+
 footer {
     height: 80px;
     /* position: absolute; */
