@@ -122,8 +122,17 @@ ul li {
     list-style: none;
     margin-top: 8px;
     margin: 15px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 5px 5px;
+    background-color: white;
     
 }
+
+.contact-list {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 5px;
+}
+
 
 .copy {
     border-radius: 5px;
