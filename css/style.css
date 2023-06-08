@@ -154,11 +154,33 @@ footer {
     align-self: self-end;
 }
 
-footer .fa-brands {
-    font-size: 30px;
+footer p {
+    font-size: 10px;
+    color: white;
+    margin-top: 5px;
 }
 
- .fa-brands:hover,
- .fa-brands:active {
+footer .icon {
+    font-size: 30px;
+    color: white;
+}
+
+ .social:hover p,
+ .social:active p{
     color:#7D160F !important;
+}
+
+.social:hover p,
+ .social:active p {
+    color:#7D160F !important;
+}
+
+.social:hover .icon,
+.social:active .icon{
+   color:#7D160F !important;
+}
+
+.social:hover .icon,
+.social:active .icon {
+   color:#7D160F !important;
 }

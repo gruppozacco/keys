@@ -20,7 +20,7 @@ const { createApp } = Vue
       copy() {
         console.log(this.password)
         navigator.clipboard.writeText(this.password);
-        alert("Testo copiato: " + this.password);
+        // alert("Testo copiato: " + this.password);
     }
     },
     
